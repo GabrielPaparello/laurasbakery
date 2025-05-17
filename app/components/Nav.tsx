@@ -50,7 +50,7 @@ export const Nav = () => {
               transition={{ duration: 0.3 }}
               className={`
                 ${nunito.className} 
-                text-white text-[16px] tracking-[5.2px] font-semibold
+                text-[#EBEBF5] text-[16px] tracking-[5.2px] font-semibold
                 flex flex-col sm:hidden p-4 z-50 relative bg-[#111313]
               `}
             >
