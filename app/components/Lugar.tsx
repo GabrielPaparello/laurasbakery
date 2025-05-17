@@ -5,19 +5,19 @@ import { nunito, tinos } from "../lib/fonts/fonts";
 
 export const Lugar = () => {
   return (
-    <div className=" bg-[#F3E0EC] flex items-start justify-start  py-4 ">
-      <div className="px-20">
+    <div className="bg-[#F3E0EC] flex flex-col md:flex-row items-start justify-start py-4">
+      <div className="px-4 md:px-20 w-full md:w-auto">
         <Image
           src="/lugar.jpg"
           alt="Descripción de la imagen"
           width={450}
           height={300}
-          className=""
+          className="w-full h-auto max-w-[450px] mx-auto md:mx-0"
         />
       </div>
-      <div className="flex flex-col items-start justify-center text-center px-20">
+      <div className="flex flex-col items-start justify-center text-center px-4 md:px-20 pt-6 md:pt-0">
         <h2
-          className={`${nunito.className} text-[#47231C] py-20 text-[41.88px]`}
+          className={`${nunito.className} text-[#47231C] py-5 sm:py-20 text-[41.88px]`}
         >
           EN EL CORAZÓN DE MADRID
         </h2>
