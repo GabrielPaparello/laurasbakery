@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col sm:flex-row h-screen w-screen relative">
+    <div className="flex flex-col sm:flex-row h-screen  relative">
       {/* Títulos */}
       <h1
         className={`${nunito.className} absolute z-30 top-[80px] sm:top-[122px] left-1/2 -translate-x-1/2 text-[36px] sm:text-[67.73px] tracking-[5px] sm:tracking-[13.5px] text-[#EBEBF5] font-semibold text-center bg-[#111313]/5`}

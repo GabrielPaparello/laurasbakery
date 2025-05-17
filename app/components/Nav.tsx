@@ -8,7 +8,7 @@ export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full z-50 px-20 py-2 sm:bg-[#111313]/20 bg-[#111313]">
+    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full z-50 px-20 py-2 sm:bg-[#111313]/20 bg-[#111313] ">
       {/* Botón hamburguesa en mobile */}
       <div className="sm:hidden absolute p-2 right-5 z-50">
         <button
