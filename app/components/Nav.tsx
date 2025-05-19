@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { nunito } from "../lib/fonts/fonts";
 import Hamburger from "hamburger-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,8 +55,12 @@ export const Nav = () => {
                 flex flex-col sm:hidden p-4 z-50 relative bg-[#111313]
               `}
             >
-              <li>MENUS</li>
-              <li>RESERVATION</li>
+              <li>
+                <Link href="#menu">MENUS</Link>
+              </li>
+              <li>
+                <Link href="#reservas">RESERVATION</Link>
+              </li>
             </motion.ul>
           </>
         )}
@@ -65,8 +70,12 @@ export const Nav = () => {
       <ul
         className={`${nunito.className} hidden sm:flex justify-between text-white p-4 text-[16px] tracking-[5.2px] font-semibold`}
       >
-        <li>MENUS</li>
-        <li>RESERVATION</li>
+        <li>
+          <Link href="#menu">MENUS</Link>
+        </li>
+        <li>
+          <Link href="#reservas">RESERVATION</Link>
+        </li>
       </ul>
     </div>
   );

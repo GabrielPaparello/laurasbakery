@@ -4,7 +4,7 @@ import { nunito, tinos } from "../lib/fonts/fonts";
 
 export const Menu = () => {
   return (
-    <div className="relative h-screen">
+    <div id="menu" className="relative h-screen">
       {/* Contenedor de la imagen */}
       <div className="relative w-full h-full">
         <Image
@@ -17,7 +17,7 @@ export const Menu = () => {
         />
 
         {/* Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-[#111313]/60"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#111313]/40"></div>
 
         <div className="absolute z-30 top-[20px] sm:top-[122px] sm:left-1/4 sm:-translate-x-1/2 px-2 sm:px-0">
           <h2

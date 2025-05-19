@@ -3,6 +3,7 @@ import { Hero } from "./components/Hero";
 import { Lugar } from "./components/Lugar";
 import { Menu } from "./components/Menu";
 import { Nav } from "./components/Nav";
+import { Products } from "./components/Products";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Lugar />
       <Cta />
       <Menu />
+      <Products />
     </div>
   );
 }

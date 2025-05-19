@@ -4,7 +4,10 @@ import { nunito, tinos } from "../lib/fonts/fonts";
 
 export const Cta = () => {
   return (
-    <div className="bg-[#FBF1E7] flex flex-col items-center justify-center py-10 sm:gap-2 gap-5">
+    <div
+      id="reservas"
+      className="bg-[#FBF1E7] flex flex-col items-center justify-center py-10 sm:gap-2 gap-5"
+    >
       <h2
         className={`${nunito.className} text-[#CA4505] text-[24px] sm:text-[41.88px] tracking-[3px] sm:tracking-[5.2px] font-semibold text-center`}
       >

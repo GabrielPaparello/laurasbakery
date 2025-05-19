@@ -5,7 +5,10 @@ import { nunito, tinos } from "../lib/fonts/fonts";
 
 export const Lugar = () => {
   return (
-    <div className="bg-[#F3E0EC] flex flex-col md:flex-row items-start justify-start py-4">
+    <div
+      id="lugar"
+      className="bg-[#F3E0EC] flex flex-col md:flex-row items-start justify-start py-4"
+    >
       <div className="px-4 md:px-20 w-full md:w-auto">
         <Image
           src="/lugar.jpg"

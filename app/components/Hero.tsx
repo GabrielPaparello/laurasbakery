@@ -37,7 +37,7 @@ export const Hero = () => {
         {/* Botón ¿DÓNDE ESTAMOS? solo en desktop */}
         <button className="hidden sm:block z-20 absolute bottom-[15%] left-1/2 -translate-x-1/2 p-4 bg-[#47231C]">
           <Link
-            href="/productos"
+            href="#lugar"
             className={`${nunito.className} text-center text-[#EBEBF5] text-[16px] tracking-[5.2px] font-semibold`}
           >
             ¿DÓNDE ESTAMOS?
@@ -58,13 +58,13 @@ export const Hero = () => {
         {/* Ambos botones en mobile */}
         <div className="sm:hidden absolute bottom-[40%] left-1/2  -translate-x-1/2 z-20 flex flex-col gap-5 items-center">
           <Link
-            href="/productos"
+            href="#productos"
             className={`${nunito.className} px-4 py-2 bg-[#271F15] text-[#EBEBF5] text-[14px] tracking-[3px] font-semibold`}
           >
             PRODUCTOS
           </Link>
           <Link
-            href="/productos"
+            href="#lugar"
             className={`${nunito.className} px-4 py-2 bg-[#47231C] text-[#EBEBF5] text-[14px] tracking-[3px] font-semibold`}
           >
             ¿DÓNDE ESTAMOS?
@@ -74,7 +74,7 @@ export const Hero = () => {
         {/* Botón PRODUCTOS solo en desktop */}
         <button className="hidden sm:block z-20 absolute bottom-[15%] left-1/2 -translate-x-1/2 p-4 bg-[#271F15]">
           <Link
-            href="/productos"
+            href="#productos"
             className={`${nunito.className} text-center text-[#EBEBF5] text-[16px] tracking-[5.2px] font-semibold`}
           >
             PRODUCTOS
