@@ -1,4 +1,5 @@
 import { Cta } from "./components/Cta";
+import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Lugar } from "./components/Lugar";
 import { Menu } from "./components/Menu";
@@ -14,6 +15,7 @@ export default function Home() {
       <Cta />
       <Menu />
       <Products />
+      <Footer />
     </div>
   );
 }
