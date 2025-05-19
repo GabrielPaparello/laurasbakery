@@ -18,7 +18,7 @@ export const Footer = () => {
         ALEGRÍA. TE ESPERAMOS CON LOS BRAZOS ABIERTOS Y UNA SONRISA EN EL
         ROSTRO.
       </p>
-      <p className="text-[#47231C] text-[14px] sm:text-[16px] text-center font-light mt-5">
+      <p className="text-[#FBF1E7] text-[14px] sm:text-[16px] text-center font-light mt-5">
         Copyright &copy; {currentYear} VTC. Todos los derechos reservados.
       </p>
     </div>
