@@ -39,7 +39,7 @@ export const Products = () => {
                 BAGEL
               </h2>
             </div>
-            <div className="absolute z-30 top-[60%] sm:top-[100px] sm:left-[150px] bg-[#47231C] p-2">
+            <div className="absolute z-30 top-[30%] sm:top-[100px] sm:left-[150px] bg-[#47231C] p-2">
               <p
                 className={`${tinos.className} text-[12px]/5 max-w-[350px] sm:text-[16px]/7.5 tracking-[3.2px]  text-[#BDBCC9] text-start`}
               >
@@ -64,7 +64,7 @@ export const Products = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-[#111313]/20"></div>
           <div>
-            <div className="absolute z-30 bottom-[4%] right-[10%] sm:bottom-[80px] sm:right-[200px] ">
+            <div className="absolute z-30 bottom-[90%] right-[10%] sm:bottom-[80px] sm:right-[200px] ">
               <h2
                 className={`${nunito.className} text-[40px] sm:text-[67.73px] tracking-[5.2px] sm:tracking-[13.5px] text-[#E79C43] font-semibold`}
               >
