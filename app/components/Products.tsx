@@ -18,7 +18,7 @@ export const Products = () => {
         interval={3000}
         transitionTime={800}
         emulateTouch
-        swipeable
+        swipeable={false}
       >
         {/* Slide 1 */}
         <div className="relative w-full h-screen">

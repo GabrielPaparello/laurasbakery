@@ -56,7 +56,7 @@ export const Menu = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-[#111313]/40"></div>
 
         <div
-          className="absolute z-30 top-[20px] sm:top-[122px] sm:left-1/4 sm:-translate-x-1/2 px-2 sm:px-0"
+          className="absolute z-30 top-[60px] sm:top-[122px] sm:left-1/4 sm:-translate-x-1/2 px-2 sm:px-0"
           ref={ref}
         >
           {/* Título "LAURA’S" con animación de escritura */}
@@ -85,7 +85,7 @@ export const Menu = () => {
       <motion.div
         ref={ref}
         animate={controls}
-        className="absolute z-30 top-[130px] sm:top-[80px] left-1/2 -translate-x-1/2 sm:-translate-0 w-[210px] sm:right-0 p-5 sm:w-1/4 bg-[#47231C] rounded-lg mr-10"
+        className="absolute z-30 top-[200px] sm:top-[80px] left-1/2 -translate-x-1/2 sm:-translate-0 w-[210px] sm:right-0 p-5 sm:w-1/4 bg-[#47231C] rounded-lg mr-10"
       >
         <h4
           className={`${nunito.className} text-center text-[20px] sm:text-[25.89px] tracking-[5.2px] font-regular text-[#EBEBF5] pb-5`}
