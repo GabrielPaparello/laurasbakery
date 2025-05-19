@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <div className="bg-[#47231C] flex flex-col items-center justify-center py-10 sm:gap-2 gap-5">
       <h2
-        className={`${nunito.className} text-[24px] sm:text-[41.88px] text-[#47231C]`}
+        className={`${nunito.className} text-[24px]  text-[#FBF1E7] tracking-[3px] sm:tracking-[5.2px] font-semibold text-center`}
       >
         VENI A CONOCERNOS
       </h2>
